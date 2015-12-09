@@ -4,7 +4,7 @@ iconv = require 'iconv-lite'
 module.exports =
 
   activate: (state) ->
-    atom.commands.add 'atom-workspace', "ansi-to-utf8:ansi", =>       @open 'ansi'
+    atom.commands.add 'atom-workspace', "ansi-to-utf8:ansi", =>       @open 'win1252'
     atom.commands.add 'atom-workspace', "ansi-to-utf8:shift_jis", =>  @open 'shift_jis'
     atom.commands.add 'atom-workspace', "ansi-to-utf8:euc-jp", =>     @open 'euc-jp'
     atom.commands.add 'atom-workspace', "ansi-to-utf8:cp932", =>      @open 'cp932'
