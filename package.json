@@ -1,10 +1,15 @@
 {
   "name": "ansi-to-utf8",
   "main": "./lib/ansi-to-utf8",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "AnsiToUTF8 package for editing and saving files encoded in ANSI (win1252) etc",
   "keywords": [
-    "ansi", "utf", "utf8", "utf-8", "encoding", "win1252"
+    "ansi",
+    "utf",
+    "utf8",
+    "utf-8",
+    "encoding",
+    "win1252"
   ],
   "activationCommands": {
     "atom-workspace": [
