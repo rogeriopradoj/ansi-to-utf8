@@ -2,7 +2,7 @@
 
 Totally based on https://github.com/dongri/convert-to-utf8.
 
-AnsiToUTF8 package for editing and saving files encoded in ANSI (Western) Shift_JIS, EUC-JP, CP932, GBK, BIG5, BIG5-HKSCS, EUC-KR etc.
+AnsiToUTF8 package for editing and saving files encoded in ANSI (win1252) etc.
 
 ![A screenshot of your spankin' package](https://c1.staticflickr.com/9/8837/18564513601_0f8c37a057_b.jpg)
 
