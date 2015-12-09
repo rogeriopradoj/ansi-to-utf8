@@ -1,20 +1,21 @@
 {
-  "name": "convert-to-utf8",
-  "main": "./lib/convert-to-utf8",
+  "name": "ansi-to-utf8",
+  "main": "./lib/ansi-to-utf8",
   "version": "0.2.4",
-  "description": "ConvertToUTF8 package for editing and saving files encoded in Shift_JIS, EUC-JP, CP932, GBK, BIG5, BIG5-HKSCS, EUC-KR etc",
+  "description": "AnsiToUTF8 package for editing and saving files encoded in ANSI (Western) Shift_JIS, EUC-JP, CP932, GBK, BIG5, BIG5-HKSCS, EUC-KR etc",
   "activationCommands": {
     "atom-workspace": [
-      "convert-to-utf8:shift_jis",
-      "convert-to-utf8:euc-jp",
-      "convert-to-utf8:gbk",
-      "convert-to-utf8:big5",
-      "convert-to-utf8:big5-hkscs",
-      "convert-to-utf8:euc-kr",
-      "convert-to-utf8:utf-8"
+      "ansi-to-utf8:ansi",
+      "ansi-to-utf8:shift_jis",
+      "ansi-to-utf8:euc-jp",
+      "ansi-to-utf8:gbk",
+      "ansi-to-utf8:big5",
+      "ansi-to-utf8:big5-hkscs",
+      "ansi-to-utf8:euc-kr",
+      "ansi-to-utf8:utf-8"
     ]
   },
-  "repository": "https://github.com/dongri/convert-to-utf8",
+  "repository": "https://github.com/rogeriopradoj/ansi-to-utf8",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
